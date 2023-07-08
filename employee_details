@@ -1,0 +1,19 @@
+class Employee:
+    count = 0
+
+    def __init__(self, name, salary, post):
+        self.name = name
+        self.salary = salary
+        self.post = post
+
+    def display(self):
+        print(Employee.count, "Name : ", self.name, "Salary : ", self.salary,
+              "Post : ", self.post)
+
+        Employee.count = Employee.count + 1
+
+
+e = Employee("john ", 12000, " Employee  ")
+k = Employee(" Hari ", 1332032, " Engineers ")
+e.display()
+k.display()

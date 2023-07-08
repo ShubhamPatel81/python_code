@@ -1,0 +1,10 @@
+# First open the file and read/ write or append , and then close it
+file = open("myfile.txt", "w+")
+txt = file.read()
+print(txt)
+file.read()
+file.readline()
+file.write("@@@@@@@@@@@@@@@@2   ")
+# file.seek()
+file.tell()
+file.close()
